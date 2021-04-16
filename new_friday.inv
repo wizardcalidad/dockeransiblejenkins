@@ -1,0 +1,7 @@
+[master]
+two ansible_host= ansible_user=ubuntu
+
+
+[workers]
+three ansible_host= ansible_user=ubuntu
+four ansible_host= ansible_user=ubuntu
