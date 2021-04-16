@@ -5,3 +5,7 @@ two ansible_host=172.31.59.114 ansible_user=ubuntu
 [workers]
 three ansible_host=172.31.77.93 ansible_user=ubuntu
 four ansible_host=172.31.70.6 ansible_user=ubuntu
+
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
